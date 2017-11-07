@@ -1,0 +1,33 @@
+1. install zookeper for KAFKA producer in the HDF cluster
+2. HDP - for each producer of HDF , you install consumer ( Spark Scala ) through YARN architecture
+
+if 5 node cluster for HDP 1 master , 4 slave
+
+producer code - kafka API
+consumer code - spark scala
+
+nifi job 
+
+
+1. Exact environment of similar set up 
+2. HDF procurement / HDP procurement to calculate ( Procurement team ): Capacity Planning
+	how much processing
+	how much data
+	how many regions
+	how many nodes - 
+		staging - AS IS
+		DQ staging - all cleansed data
+		data retention policy
+		executor logs
+		
+3. devops in CI CD
+
+HDF - CD 
+
+
+server will be up and running
+
+curl library
+start stop
+
+
